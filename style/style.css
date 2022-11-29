@@ -1,0 +1,42 @@
+@import url("./variables.css");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: var(--padding-l);
+    align-items: center;
+    background: var(--bg-primary);
+    color: var(--primary-color);
+}
+
+.header__logo {
+    background-color: var(--bg-primary);
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+
+.logo-wrapper {
+    width: 80%;
+    padding: var(--padding-xl);
+
+}
+
+.header__link {
+    font-size: var(--fs-l);
+}
