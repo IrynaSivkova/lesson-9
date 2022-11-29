@@ -1,0 +1,27 @@
+:root {
+    /* * bg */
+--bg-primary : linear-gradient(red, yellow);
+ 
+/* * text */
+ --fs-xl : 3rem;
+ --fs-l : 2rem;
+ --fs-m : 1rem;
+ --fs-s : .8rem;
+
+   /* * ff */
+--ff-primery: "inter";
+--ff-secondary: "roboto";
+
+  /* * padding */
+--padding-xl: 5rem;
+--padding-l: 4rem;
+--padding-m: 3rem;
+--padding-s: 2rem;
+
+  /* * margin */
+--margin-xl: 5rem;
+--margin-l: 4rem;
+--margin-m: 3rem;
+--margin-s: 2rem;
+
+}
